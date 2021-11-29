@@ -14,3 +14,13 @@
 ![Время выполнения filter_with_filename.py](filter_with_filename-profile.png) 
 
 Благодаря исключению input, время выполнения filter_with_filename.py сократилось значительно относительно filter.py. Также filter_with_filename.py эффективней old_filter.py благодаря оптимизациям (в первую очередь, матричным преобразованиям). 
+
+Благодаря исключению input, время выполнения filter_with_filename.py сократилось значительно относительно filter.py. Также filter_with_filename.py эффективней old_filter.py благодаря оптимизациям (в первую очередь, матричным преобразованиям). 
+
+---
+
+Исполнение доктестов для median_gray():
+
+![Исполнение доктестов для median_gray()](doctest-median_gray.png) 
+
+Все тесты пройдены. Написание тестов на gray_pixelation() слишком тяжело, так как возвращаемое значение - изображение.
